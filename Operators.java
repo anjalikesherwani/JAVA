@@ -2,7 +2,7 @@ class Operators {
     public static void main(String args[]){
         
         //Arithmetic Operators
-        // 1.Addition
+        // 1.Addition   
         int a= 5,b=45,c=67;
         int d =a+b+c;
         System.out.println("num is: "+a);
@@ -122,7 +122,7 @@ class Operators {
         x11 <<= 2;
         System.out.println("<<= : "+ x11);
 
-        //COMPARISON OPERATORS  
+        //COMPARISON OPERATORS  OR RELATIONAL OPERATORS
         //Always gives values in true or false
         // 1. == (Equal to)
         int x12 = 12;
@@ -168,24 +168,24 @@ class Operators {
 
         //LOGICAL OPERATORS
         //Always gives values in true or false
-        //1. && (And)
+        //1. && (Logical And)
         int x24 = 12;
         int x25 = 13;
         System.out.println("Original value of x24 : " + x24);
         System.out.println("Original value of x25 : " + x25);
-        System.out.println("&& : " + (x24 > x25 && x24 < x25));
+        System.out.println("&& : " + (x24 > x25 && x24 < x25));  //Returns true if both statements are true
 
-        //2. ||
+        //2. || (Logical OR)
         int x26 = 12;
         int x27 = 13;
         System.out.println("Original value of x26 : " + x26);
         System.out.println("Original value of x27 : " + x27);
-        System.out.println("|| : " + (x26 > x27 || x26 < x27));
+        System.out.println("|| : " + (x26 > x27 || x26 < x27));   //Returns true if one of the statements is true
 
-        // 3. !
+        // 3. ! (Logical Not)
         int x28 = 12;
         System.out.println("Original value of x28 : " + x28);
-        System.out.println("! : " + (! (x28 > x27 || x26 < x27)));  
+        System.out.println("! : " + (! (x28 > x27 || x26 < x27)));   //Reverse the result, returns false if the result is true
 
 
 
