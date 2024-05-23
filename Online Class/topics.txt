@@ -1,0 +1,6 @@
+Syntax(void main)
+Variables
+Primitive Datatype
+Operators
+Conditions
+loops
